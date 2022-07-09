@@ -39,6 +39,14 @@
 				<li><a href="#">Login </a> </li>
 				<li><a href="#"><span class="register">Register</span></a></li>
 			</ul>
+			<ul class="givusacall">
+				<li><img src="image/shoppingcart.png" alt="Shopping Cart"  width="20" height="20"></img><li>
+				<li> 				
+				 <label>Total Amount</label> <span id="total_amt">US $0.00 </span><br>
+				 <label>Total Items</label> <label id="total_items" class="text-secondary rounded-circle">0</label>
+				</li>
+			</ul>
+			 
 	</div>
 	<!-- Navbar Up -->
 	<nav class="topnavbar navbar-default topnav">
@@ -76,6 +84,7 @@
 					<a href="contact.html">CONTACT</a>
  
 				</li>
+				
 				<button><span class="postnewcar">POST NEW CAR</span></button>
 			</ul>
 		</div>
@@ -88,7 +97,18 @@
 <div class="container-fluid">
 <br>
 <br>
-<table id="example" class="table table-responsive display" >
+<table id="vehicle_table" class="table table-responsive display" >
+<thead>
+            <tr>
+                <th>Car ModelName</th>
+                <th>Car Manufacturer</th>
+                <th>WareHouse Name</th>
+                <th>Car Location</th>
+                <th>Price</th>
+                <th>Car Image</th>
+                <th>Add To Cart</th>
+            </tr>
+        </thead>
 </table>
 <!-- 	<div class="grid">
 		<div class="row">
