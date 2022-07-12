@@ -94,9 +94,10 @@ var car_garage_resell  = {
 	format : function (d) {
 	    return (
 	        '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
-	    	'<tr><td>Location: longitude :  '+   d.location.lat + '&emsp;latitude'+ d.location.long + '</td><td>'+
-	        '</td></tr><tr><td>Year Model:  ' + d.yearModel + '</td><td>' +
-	        '</td></tr><tr><td>Date Manufacured:  ' + d.dateAdded+ '</td><td></td></tr></table>'
+			'<tr><td><b>Warehouse Name:</b>  '+   d.warehouseName + '&emsp;<b>Car location :</b> '+ d.carLocation + '</td><td>'+
+	    	'<tr><td><b>Location: longitude : </b> '+   d.location.lat + '&emsp;<b>latitude :</b>'+ d.location.long + '</td><td>'+
+	        '</td></tr><tr><td><b>Year Model:</b>  ' + d.yearModel + '</td><td>' +
+	        '</td></tr><tr><td><b>Date Manufacured:</b>  ' + d.dateAdded+ '</td><td></td></tr></table>'
 	    );
 	},
 	
@@ -115,6 +116,5 @@ var car_garage_resell  = {
 		car_garage_resell.totalAmount = (parseFloat(car_garage_resell.totalAmount) + parseFloat(shoppingObject.carPrice)).toFixed(2);
 		$('#total_items').text(car_garage_resell.shoppingCart.length);
 		$('#total_amt').text('US $' + car_garage_resell.totalAmount);
-	},
-
+	}
 };

@@ -1,0 +1,26 @@
+{
+  "name": "html",
+  "version": "2.0.0",
+  "description": "Car Resale frontend",
+  "main": "js/car_garage_resell.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshagar211/frankcarresaleapp.git"
+  },
+  "keywords": [
+    "Car",
+    "Resale"
+  ],
+  "author": "Adarsh Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshagar211/frankcarresaleapp/issues"
+  },
+  "homepage": "https://github.com/adarshagar211/frankcarresaleapp#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
