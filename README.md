@@ -1,5 +1,6 @@
-# Client
+# Frank Car Resale
 
+Frank Car Resale frontend project on technologies : HTML,CSS,JavaScript,JQuery,Bootstrap .  
 This project is deployable on generated with [Nginx server](https://www.nginx.com/)  .
 
 ## Development server
@@ -13,8 +14,14 @@ This project is deployable on generated with [Nginx server](https://www.nginx.co
 Run `nginx -s stop` on cmd to stop the server. Use "taskkill /f /IM nginx.exe" in case before command is not working .
 
 ## Running unit tests
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  - Run `npm install --save-dev jest` to install jest library in project
+  - Run `ng test` to execute the unit tests via [jest](https://karma-runner.github.io).
 
 ## Further help
 
 To get more help on the Nginx server use `nginx -help` or go check out the [NGINX site](https://www.nginx.com/).
+
+## Author
+ 
+ Created By Adarsh Agarwal : adarsh.agar211@gmail.com 
+ 
